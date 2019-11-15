@@ -1,4 +1,4 @@
-package accessories;
+package shop.accessories;
 
 public class DrumSticks {
 }

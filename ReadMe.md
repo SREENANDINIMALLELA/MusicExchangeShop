@@ -21,7 +21,7 @@ You will need to:
 
   Some ISell items will be musical shop-items i.e. shop-items can be both IPlay and ISell.
 
-6. Create a Shop class, which has a collection of ISell items, called stock. In your shop you should be able to:
+6. Create a shop class, which has a collection of ISell items, called stock. In your shop you should be able to:
   -  add items to stock.
   -  remove items from stock.
 

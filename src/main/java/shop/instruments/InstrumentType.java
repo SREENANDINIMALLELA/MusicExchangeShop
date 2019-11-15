@@ -1,9 +1,9 @@
-package Shop.instruments.InstrumentType;
+package shop.instruments;
 
 public enum InstrumentType {
    PERCUSSION,
     KEYBOARD,
     WOODWIND,
     BRASS,
-    STRING
+    STRING;
 }
