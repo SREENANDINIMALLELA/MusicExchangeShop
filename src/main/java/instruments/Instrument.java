@@ -1,11 +1,9 @@
-package shop.instruments;
-
-import shop.ISell;
-import shop.ShopItems;
+package instruments;
 
 
+import shopItems.ShopItems;
 
-public abstract class Instrument extends ShopItems   {
+public abstract class Instrument extends ShopItems {
     private String material ;
     private String colour;
     private InstrumentType instrumentType ;

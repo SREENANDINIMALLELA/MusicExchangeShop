@@ -1,4 +1,4 @@
-package shop;
+package behaviours;
 
 public interface IPlay {
 }

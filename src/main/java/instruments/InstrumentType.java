@@ -1,4 +1,4 @@
-package shop.instruments;
+package instruments;
 
 public enum InstrumentType {
    PERCUSSION,

@@ -1,4 +1,4 @@
-package shop.accessories;
+package accessories;
 
 public class SheetMusic {
 }
