@@ -1,3 +1,5 @@
+package musicShop;
+
 import behaviours.ISell;
 import instruments.Instrument;
 

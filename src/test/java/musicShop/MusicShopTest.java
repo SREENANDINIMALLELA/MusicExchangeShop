@@ -1,3 +1,5 @@
+package musicShop;
+
 import instruments.Instrument;
 import instruments.InstrumentType;
 import instruments.Piano;
@@ -5,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+
 
 public class MusicShopTest {
     private Instrument instrument;

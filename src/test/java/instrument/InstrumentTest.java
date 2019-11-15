@@ -32,5 +32,9 @@ public class InstrumentTest {
     public void getInstrumentType() {
         assertEquals("KEYBOARD", instrument.getInstrumentType());
     }
+    @Test
+    public void instrumentHasToPlay(){
+        assertEquals("piano ting ting", instrument.play());
+    }
 
 }
