@@ -16,4 +16,11 @@ public abstract class Instrument extends ShopItems {
         this.instrumentType = type ;
     }
 
+    public String getMaterial() {
+        return material;
+    }
+
+    public String getInstrumentType() {
+        return instrumentType.toString();
+    }
 }

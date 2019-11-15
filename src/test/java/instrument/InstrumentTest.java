@@ -5,7 +5,7 @@ import instruments.InstrumentType;
 import instruments.Piano;
 import org.junit.Before;
 import org.junit.Test;
-import shopItems.ShopItems;
+
 
 import static org.junit.Assert.assertEquals;
 
@@ -27,5 +27,9 @@ public class InstrumentTest {
     public void calculateMarkUp() {
         assertEquals(25,instrument.calculateMarkup(),0.1);
     }
+    @Test
 
+    public void getInstrumentType() {
+        assertEquals("KEYBOARD", instrument.getInstrumentType());
+    }
 }
