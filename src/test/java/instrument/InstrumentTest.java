@@ -32,4 +32,5 @@ public class InstrumentTest {
     public void getInstrumentType() {
         assertEquals("KEYBOARD", instrument.getInstrumentType());
     }
+
 }

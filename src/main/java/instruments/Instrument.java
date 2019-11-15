@@ -1,9 +1,10 @@
 package instruments;
 
 
+import behaviours.IPlay;
 import shopItems.ShopItems;
 
-public abstract class Instrument extends ShopItems {
+public abstract class Instrument extends ShopItems implements IPlay {
     private String material ;
     private String colour;
     private InstrumentType instrumentType ;
@@ -22,5 +23,8 @@ public abstract class Instrument extends ShopItems {
 
     public String getInstrumentType() {
         return instrumentType.toString();
+    }
+    public String Play(){
+        return "playing";
     }
 }
